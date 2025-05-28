@@ -18,7 +18,7 @@ setInterval(cycleDomains, 3000);
 
 // Function for resume download
 document.getElementById('downloadResume').addEventListener('click', function () {
-    const resumeLink = 'Parth Save.pdf'; // Replace with the actual path to your resume file
+    const resumeLink = 'Parth_Save_AIML_Resume'; // Replace with the actual path to your resume file
     const link = document.createElement('a');
     link.href = resumeLink;
     link.download = 'Parth Save.pdf'; // Replace with your desired file name
